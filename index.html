@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,900' rel='stylesheet' type='text/css'>
+  
+    <title>Jumbotron Template for Bootstrap</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron hidden-xs">
+      <div class="container">
+        <h1>Want an <span class="iphonewhite">i</span>Phone?</h1>
+        <p>Well, thanks to Yoobee School of Design, you might just be one like away from a brand spanking new iPhone 5s.</p>
+        <p><a class="btn btn-primary btn-lg" role="button" href="#scrolltohere">Learn more &raquo;</a></p>
+      </div>
+    </div>:
+    <div class="yoobeebg">
+    <div class="container">
+      <h1 class="visable-xs hidden-sm hidden-md hidden-lg">Want an <span class="iphonegrey">i</span>Phone?</h1>
+      <!-- Example row of columns -->
+      <div class="row">
+          <div class="coltobecentered">
+            <div class="smallercol">
+              <h2>Just</h2>
+              <p class="step">Step 1:</p>
+              <p>Like us on Facebook.</p>
+              <p class="step">Step 2:</p>
+              <p>Reflect upon the difficulty of step 1.</p>
+              <p class="step">Step 3:</p>
+              <p>Work on your optimism.</p>
+              <p><a class="btn btn-default" href="#" role="button">Like us <br> <i class="fa fa-thumbs-o-up"></i></a></p>
+              <a href="#scrolltohere" class="visable-xs hidden-sm hidden-md hidden-lg">
+                <p class="conditions">Conditions</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+        <div class="jumbotron secondone" id="scrolltohere">
+      <div class="container coltobecentered2">
+        <h1 class="subsecthead">What's the catch?</h1>
+        <p class="step">Catch 1:</p>
+        <p>Here's the thing... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, sed a quo voluptates fugiat maxime provident voluptate alias? Veritatis, facilis quod possimus nobis rerum aut dolor id accusamus aperiam numquam..</p>
+        <p class="step">Catch 2:</p>
+        <p>Error, perspiciatis, modi, laudantium quas repellendus suscipit earum deleniti inventore nostrum similique aspernatur rem dolores hic ducimus natus exercitationem libero sint. Ut.</p>
+        <p class="step">Catch 3:</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ad, quae, enim ea sit praesentium esse voluptas animi placeat veritatis qui voluptate nisi veniam minima reiciendis nulla dolorem aut deleniti?</p>
+        <p class="step">Catch 4:</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="bottomsubheadthing">Aaaaaand,</p>
+        <p class="bottomsubheadthingtwo">that's pretty much it.</p>
+        <p class="bottomsubheadthingthree">Goodluck!</p>
+      </div>
+    </div>
+      <footer>
+        <p>&copy; Terms and Conditions Apply 2014</p>
+      </footer>
+     <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+              || location.hostname == this.hostname) {
+
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                 if (target.length) {
+                   $('html,body').animate({
+                       scrollTop: target.offset().top
+                  }, 800);
+                  return false;
+              }
+          }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+/*--------------------- GENERAL CSS ---------------------*/
+
+.container h1 {
+     color: #282828;
+     font-size: 90px;
+     text-align: center;
+     font-family: 'Lato', sans-serif;
+     font-weight: 900;
+}
+
+.container h2 {
+     color: #222;
+     font-size: 33px;
+     margin-top: 0px;
+     text-align: center;
+     font-family: 'Lato', sans-serif;
+}
+
+.jumbotron .container p {
+     text-align: center;
+     color: #222;
+     font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+     margin-bottom: 0px;
+     padding: 0px 0;
+}
+
+.iphonewhite {
+     color: #fff;
+}
+
+.coltobecentered {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    background: url('../img/phone.png') no-repeat center;
+    height: 700px;
+    width: 401px;
+}
+
+.yoobeebg {
+    background: url('../img/body-bg.png');
+    margin-top: -12px;
+}
+
+.coltobecentered h2 {
+     padding: 180px 20px 0;
+     font-weight: 100;
+}
+
+.coltobecentered p {
+     padding: 0 130px;
+}
+
+.step {
+    text-decoration:underline;
+}
+
+.secondone p {
+    padding: 0 300px;
+}
+
+.container .bottomsubheadthing {
+    font-size: 63px;
+}
+
+.container .bottomsubheadthingtwo {
+    margin-top: -20px;
+}
+
+.container .bottomsubheadthingthree {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+#scrolltohere > div
+
+.container .coltobecentered2 p {
+    min-width:;
+}
+
+#scrolltohere > div {
+    width: 600px;
+}
+
+body > div:nth-child(3) > div > h1 {
+    font-size: 60px;
+}
+
+#scrolltohere > div > p {
+    padding: 0;
+}
+
+body > div.yoobeebg > div > div > div > div > p:nth-child(8) > a {
+    background: #3B5998;
+    color: white;
+    font-size: 13px;
+    padding: 8px 25px;
+    border: 1px solid #eee;
+}
+
+body > div.yoobeebg > div > div > div > div > p:nth-child(8) > a:hover {
+    background: #355088;
+}
+
+footer p {
+    padding: 20px;
+}
+
+.iphonegrey {
+    color: #777;
+}
+
+.conditions {
+
+}
+
+/*--------------------- MEDIA QUERIES ---------------------*/
+
+/*-------- DESKTOP SIZE --------*/
+
+/*-------- TABLET SIZE --------*/
+
+/*-------- CELL PHONE SIZE --------*/
+
+@media (max-width: 767px) {
+    #scrolltohere > div > h1 {
+         color: #282828;
+         font-size: 40px;
+         text-align: center;
+         font-family: 'Lato', sans-serif;
+         font-weight: 900;
+    }
+    .coltobecentered p {
+        padding: 0px;
+    }
+    #scrolltohere > div > p {
+        font-size: 16px;
+    }
+    body > footer > p {
+        padding: 10px 2px 8px 20px;
+    }
+    body > div.yoobeebg > div > h1 {
+        font-size: 40px;
+        margin-top: -8px;
+        color: #333;
+        display: block;
+    }
+    .coltobecentered {
+        margin: -81px auto 0;
+        width: 100%;
+    }
+    .smallercol {
+        width:200px;
+        margin: 0 auto;
+    }
+    body > div.yoobeebg > div > div > div > div > p:nth-child(8) > a {
+        margin-top: 4px;
+    }
+    .conditions {
+        font-size: 13px;
+    }
+    body > div.yoobeebg > div > div > div > div > h2 {
+        padding-top: 172px;
+    }
+}
+
+
+
+
+
+
